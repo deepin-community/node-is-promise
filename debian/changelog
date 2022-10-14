@@ -1,0 +1,32 @@
+node-is-promise (4.0.0-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Paolo Greppi ]
+  * Update Vcs fields for migration to https://salsa.debian.org/
+
+  [ Debian Janitor ]
+  * Use secure copyright file specification URI.
+  * Bump debhelper from old 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+  [ Xavier Guimard ]
+  * Declare compliance with policy 4.5.0
+  * Bump debhelper compatibility level to 12
+  * Use pkg-js-tools auto test & install
+  * New upstream version 4.0.0
+  * Drop patch
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * Add debian/gbp.conf
+  * Add "Multi-Arch: foreign"
+
+ -- Xavier Guimard <yadd@debian.org>  Thu, 28 May 2020 09:16:16 +0200
+
+node-is-promise (2.1.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #848366)
+
+ -- Paolo Greppi <paolo.greppi@libpf.com>  Mon, 19 Dec 2016 11:37:15 +0000

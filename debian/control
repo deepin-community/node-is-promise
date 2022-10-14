@@ -1,0 +1,26 @@
+Source: node-is-promise
+Section: javascript
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Paolo Greppi <paolo.greppi@libpf.com>
+Build-Depends: debhelper-compat (= 12)
+ , mocha
+ , pkg-js-tools (>= 0.9.35~)
+Standards-Version: 4.5.0
+Vcs-Browser: https://salsa.debian.org/js-team/node-is-promise
+Vcs-Git: https://salsa.debian.org/js-team/node-is-promise.git
+Homepage: https://github.com/then/is-promise
+Testsuite: autopkgtest-pkg-nodejs
+Rules-Requires-Root: no
+
+Package: node-is-promise
+Architecture: all
+Depends: ${misc:Depends}
+ , nodejs
+Multi-Arch: foreign
+Description: Test whether an object looks like a promises-a+ promise
+ Node.js module to test whether an object looks like a promises-a+
+ promise (a javascript object representing the eventual result of an
+ asynchronous operation) compliant with the Promises/A+ specification.
+ .
+ Node.js is an event-based server-side JavaScript engine.
